@@ -1,0 +1,23 @@
+:root {
+	--primary: #26035D;
+	--secondary--300: #7747FF;
+	--secondary--700: #6028FF;
+	--tertiary: #FFD3B7;
+	--white: #FAF7F0;
+}
+
+html {
+	background-color: var(--white);
+	/* 18px */
+	font-size: 1.125rem;
+	line-height: 1.4;
+}
+
+body {
+	font-family: "Inter Variable", sans-serif;
+	color: var(--secondary--300);
+}
+
+p {
+	line-height: 1.5;
+}
